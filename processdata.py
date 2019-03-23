@@ -42,6 +42,7 @@ def preprocess_file():
                 source_lang.append(truncated_source)
                 target_lang.append(truncated_target)
 
+    print(len(source_lang), len(target_lang))
     return source_lang, target_lang
 
 
